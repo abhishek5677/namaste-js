@@ -4,16 +4,13 @@
 // getName()
 // // console.log(getName);
 
-
 // var x = 7;
 // console.log(x)
-
 
 // function getName() {
 //     var name = 'yasin'
 //     console.log('hello abhishek');
 //     console.log(name);
-
 
 //     // function name(){
 //     //     console.log('yasin');
@@ -24,8 +21,6 @@
 // const getName = () => {
 //     return console.log('hello abhishek')
 // }
-
-
 
 // how functions work in js
 
@@ -45,8 +40,6 @@
 //     console.log(x);
 // }
 
-
-
 // let and const and temporal dead zone
 
 // console.log(a); // ReferenceError: Cannot access 'a' before initialization
@@ -57,20 +50,18 @@
 // console.log(window.a); // undefined
 // console.log(window.b); // 15
 
-
-
 // Block scope and shadowing
 
-let b = 100;
-function x() {
-    var a = 10;
-    let b = 20;
-    const c = 30;
-    console.log(a);
-    console.log(b);
-    console.log(c);
-}
-x()
+// let b = 100;
+// function x() {
+//     var a = 10;
+//     let b = 20;
+//     const c = 30;
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+// x()
 
 // {
 //     var a = 10;
@@ -90,9 +81,6 @@ x()
 // console.log(b);
 // x()
 
-
-
-
 // closures in js
 
 // function x() {
@@ -109,8 +97,6 @@ x()
 
 // var z = x()
 // z()
-
-
 
 // function outerFunction() {
 //     let outerVariable = "I am a variable";
@@ -132,8 +118,6 @@ x()
 // I am a variable
 // I am a helper function
 
-
-
 // function x() {
 //     for (let i = 1; i <= 5; i++) {
 //         setTimeout(function () {
@@ -143,8 +127,6 @@ x()
 //     console.log("Namaste Javascript");
 // }
 // x();
-
-
 
 // callback function in js
 
@@ -171,3 +153,51 @@ x()
 // }
 
 // attachEvent();
+
+// map function
+// const arr = [1, 2, 3, 4, 5];
+
+// const output = arr.map((ele) => ele * 2);
+
+// console.log(output); // Output: [2, 4, 6, 8, 10]
+
+// filter function
+// const arr = [1, 2, 3, 4, 5];
+
+// const isOdd = (ele) => {
+//   return ele % 2 === 1;
+// };
+
+// const isEven = (ele) => {
+//   return ele % 2 === 0;
+// };
+
+// const output1 = arr.filter(isOdd);
+// const output2 = arr.filter(isEven);
+
+// console.log(output1); // Output: [1, 3, 5]
+// console.log(output2); // Output: [2, 4]
+
+// reduce function
+// const arr = [1, 2, 3, 4, 5];
+
+// find sum
+
+// using traditional way to calculate sum
+// const findSum = (arr) => {
+//   let sum = 0;
+//   for(let i=0; i<arr.length; i++){
+//     sum += arr[i]
+//   }
+//   return sum;
+// };
+// console.log(findSum(arr)); // Output: 15
+
+
+// using reduce function to calculate sum
+
+// const output = arr.reduce((acc, curr) => {
+//   return (acc += curr);
+// }, 0);
+
+// console.log(output); // Output: 15
