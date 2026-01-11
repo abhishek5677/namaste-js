@@ -19,6 +19,7 @@
 
 // const input = "abhishek"; // h
 // const input = "abc"; // null
+// const input= [10, 20, 30, 40, 10] // 10
 
 // const firstRepeatedChar = (str) => {
 //   let freq = {};
