@@ -15,10 +15,10 @@
 
 // console.log(output);
 
-
 // “Find the first character that appears twice in a string”?
 
-// const input = "abhishek";
+// const input = "abhishek"; // h
+// const input = "abc"; // null
 
 // const firstRepeatedChar = (str) => {
 //   let freq = {};
@@ -29,6 +29,7 @@
 //     }
 //     freq[char] = 1;
 //   }
+//   return null;
 // };
 
 // console.log(firstRepeatedChar(input));
