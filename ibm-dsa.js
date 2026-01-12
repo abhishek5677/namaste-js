@@ -34,3 +34,47 @@
 // };
 
 // console.log(firstRepeatedChar(input));
+
+//  Check palindrome
+
+// const input = "mom"; // true
+// const input = "ibm"; // false
+
+// const checkPalindrom = (str) => {
+
+//     let text = "";
+
+//     for(let i = str.length-1; i >= 0; i-- ){
+//         text = text + str[i]
+//     }
+
+//     if(text === str){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+// console.log(checkPalindrom(input));
+
+
+// Find maximum number in array
+
+// const input = [100, 20, 30, 40, 50]; // 100
+
+// const findMaxNum = (arr) => {
+//   if (arr.length === 0) return null;
+
+//   if (arr.length === 1) return arr[0];
+
+//   let max = arr[0];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// };
+
+// console.log(findMaxNum(input));
