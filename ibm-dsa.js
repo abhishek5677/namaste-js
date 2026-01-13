@@ -57,7 +57,6 @@
 
 // console.log(checkPalindrom(input));
 
-
 // Find maximum number in array
 
 // const input = [100, 20, 30, 40, 50]; // 100
@@ -78,3 +77,76 @@
 // };
 
 // console.log(findMaxNum(input));
+
+// length of the longest consecutive subsequence in an array
+
+// const array = [1, 20, 30, 3, 60, 5, 2, 3]; // 3
+
+// const findLongestSubsequence = (x) => {
+//   const arr = x.sort((a, b) => a - b);
+
+//   let count = 1;
+//   let n = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] - arr[i + 1] == -1) {
+//       count++;
+//     } else if (count > n) {
+//       n = count;
+//       count = 1;
+//     }
+//   }
+//   return n;
+// };
+
+// console.log(findLongestSubsequence(array));
+
+// Find first non-repeating character
+
+// const input = "aabbcdd"; //c
+
+// const findNonRepeatingChar = (x) => {
+//   let freq = {};
+
+//   for (const char of x) {
+//     if (!freq[char]) {
+//       freq[char] = 1;
+//     } else {
+//       freq[char] = freq[char] + 1;
+//     }
+//   }
+
+//   for (const char of x) {
+//     if (freq[char] === 1) {
+//       return char;
+//     }
+//   }
+// };
+
+// console.log(findNonRepeatingChar(input));
+
+// Input: "listen", "silent" // true
+
+// var isAnagram = function (s, t) {
+//   if (s.length !== t.length) return false;
+
+//   let freq = {};
+
+//   for (const char of s) {
+//     if (freq[char]) {
+//       freq[char] = freq[char] + 1;
+//     } else {
+//       freq[char] = 1;
+//     }
+//   }
+
+//   for (const char of t) {
+//     if (!freq[char]) {
+//       return false;
+//     }
+
+//     freq[char] = freq[char] - 1;
+//   }
+
+//   return true;
+// };
