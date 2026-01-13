@@ -169,3 +169,29 @@
 // };
 
 // console.log(characterFreq(input));
+
+// Find duplicate elements
+// const input = [10, 20, 2, 1, 1, 2, 3, 4, 2, 1, 5, 5, 6, 7]; //[ 1, 2, 5 ]
+
+// const findDuplicates = (x) => {
+//   let freq = {};
+//   let duplicates = [];
+
+//   for (let num of x) {
+//     if (freq[num]) {
+//       freq[num] = freq[num] + 1;
+//     } else {
+//       freq[num] = 1;
+//     }
+//   }
+
+//   for (let num in freq) {
+//     if (freq[num] > 1) {
+//       duplicates.push(Number(num));
+//     }
+//   }
+
+//   return duplicates;
+// };
+
+// console.log(findDuplicates(input));
