@@ -150,3 +150,22 @@
 
 //   return true;
 // };
+
+// Count character frequency
+
+// const input = "aabbbc";
+
+// const characterFreq = (str) => {
+//   let freq = {};
+
+//   for (let text of str) {
+//     if (freq[text]) {
+//       freq[text] = freq[text] + 1;
+//     } else {
+//       freq[text] = 1;
+//     }
+//   }
+//   return freq;
+// };
+
+// console.log(characterFreq(input));
